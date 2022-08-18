@@ -5,11 +5,13 @@ go 1.16
 require (
 	github.com/BurntSushi/toml v1.1.0 // indirect
 	github.com/apache/dubbo-getty v1.4.8
+	github.com/complone/blast v0.0.0-20220818073352-6acdbf9f3e81
 	github.com/dubbogo/gost v1.12.3
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/kr/pretty v0.3.0 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/pkg/errors v0.9.1
+	github.com/prometheus/client_golang v1.9.0
 	github.com/rogpeppe/go-internal v1.8.0 // indirect
 	github.com/stretchr/testify v1.7.0
 	go.uber.org/atomic v1.9.0
