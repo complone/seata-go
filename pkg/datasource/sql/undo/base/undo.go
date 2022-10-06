@@ -170,7 +170,7 @@ func (m *BaseUndoLogManager) getBatchInsertUndoLogSql(logs []undo.BranchUndoLog)
 		undoLogInsertSql.WriteString(" , ")
 		undoLogInsertSql.WriteString(logs[i].BranchID)
 		undoLogInsertSql.WriteString(" , ")
-		undoLogInsertSql.WriteString(logs[i].Logs[0].SQLType)
+		//undoLogInsertSql.Write(logs[i].Logs[0].SQLType)
 	}
 
 	return undoLogInsertSql.String(), nil
